@@ -68,6 +68,6 @@ if(!$mail->send()){
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
     echo "<script type='text/javascript'>
-				window.location.href = '/cabin-crew/thank-you/';
+				window.location.href = 'thank-you.html';
 			</script>";
 } ?>
